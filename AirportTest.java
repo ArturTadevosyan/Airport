@@ -77,7 +77,7 @@ public class AirportTest {
     public void menu() {
         Scanner scanner = new Scanner(System.in);
         PlaneService service = new PlaneService();
-        System.out.println("Choos one = Task2 = 2,Task3 = 3,Task4 = 4,Task5 = 5,Task6 = 6,Task7 = 7,Task8 = 8,Task9 = 9,Task10 = 10");
+        System.out.println("Chose one = Task2 = 2,Task3 = 3,Task4 = 4,Task5 = 5,Task6 = 6,Task7 = 7,Task8 = 8,Task9 = 9,Task10 = 10");
         int chooseMenu = scanner.nextInt();
         switch (chooseMenu) {
             case 2:
