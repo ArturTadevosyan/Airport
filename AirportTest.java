@@ -95,14 +95,19 @@ public class AirportTest {
                 break;
             case 4:
                 System.out.println("Task4");
+                System.out.println("Enter plane 1");
                 Plane plane3 = create();
+                System.out.println("Enter plane 2");
                 Plane plane4 = create();
                 service.task4(plane3, plane4);
                 break;
             case 5:
                 System.out.println("Task5");
+                System.out.println("Enter plane 1");
                 Plane plane5 = create();
+                System.out.println("Enter plane 2");
                 Plane plane6 = create();
+                System.out.println("Enter plane 3");
                 Plane plane7 = create();
                 service.task5(plane5, plane6, plane7);
                 break;
